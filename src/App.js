@@ -1,11 +1,18 @@
+import React, {Component} from "react";
+import MenuMakanan from "./Page/MenuMakanan";
 
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  render(){
+    return (
+      <div className="App">
+        <MenuMakanan />
+
+      </div>
+    );
+
+  }
+
 }
 
 export default App;
